@@ -81,10 +81,10 @@ nav ul li:hover{
 }
 
 nav ul li.face{
-    background-image: url("https://github.com/Kenzie-Academy-Brasil-Developers/entrega-mais-tag-html-sprint-2-ElBulidur/blob/main/imgs/face-pt.png");
+    background-image: url("imgs/face-pt.png");
 }
 nav ul li.face:hover{
-    background-image: url("https://github.com/Kenzie-Academy-Brasil-Developers/entrega-mais-tag-html-sprint-2-ElBulidur/blob/main/imgs/face-rgb.png");
+    background-image: url("imgs/face-rgb.png");
 }
 nav ul li.insta{
     background-image: url("https://github.com/Kenzie-Academy-Brasil-Developers/entrega-mais-tag-html-sprint-2-ElBulidur/blob/main/imgs/insta-pt.png");
