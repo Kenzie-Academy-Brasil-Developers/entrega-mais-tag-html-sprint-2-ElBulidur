@@ -84,19 +84,19 @@ nav ul li.face{
     background-image: url("imgs/face-pt.png");
 }
 nav ul li.face:hover{
-    background-image: url("imgs/face-rgb.png");
+    background-image: url("/css/imgs/face-pt.png");
 }
 nav ul li.insta{
-    background-image: url("https://github.com/Kenzie-Academy-Brasil-Developers/entrega-mais-tag-html-sprint-2-ElBulidur/blob/main/imgs/insta-pt.png");
+    background-image: url("/css/imgs/insta-pt.png");
 }
 nav ul li.insta:hover{
-    background-image: url("https://github.com/Kenzie-Academy-Brasil-Developers/entrega-mais-tag-html-sprint-2-ElBulidur/blob/main/imgs/insta-rgb.png");
+    background-image: url("/css/imgs/insta-rgb.png");
 }
 nav ul li.linkedin{
-    background-image: url("https://github.com/Kenzie-Academy-Brasil-Developers/entrega-mais-tag-html-sprint-2-ElBulidur/blob/main/imgs/linkedin-pt.png");
+    background-image: url("/css/imgs/linkedin-pt.png");
 }
 nav ul li.linkedin:hover{
-    background-image: url("https://github.com/Kenzie-Academy-Brasil-Developers/entrega-mais-tag-html-sprint-2-ElBulidur/blob/main/imgs/linkedin-rgb.png");
+    background-image: url("/css/imgs/linkedin-rgb.png");
 }
 
 nav ul li a{
