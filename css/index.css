@@ -112,6 +112,14 @@ aside{
     background-color: #D93B3B;
 }
 
+hr{
+    width: 80%;
+    position: relative;
+    display: block;
+    margin: 0px auto ;
+    border-color: #D5D96C;
+}
+
 ol{
     margin-left: 3vh;
     margin-top: 4vh;
@@ -135,8 +143,7 @@ img{
 }
 
 div.fundo{
-    background-color: #A69586;
-    border: 1px solid #262626;
+    background-color: #D5D96C;
     width: 7em;
     height: 7em;
     border-radius: 100%;
