@@ -4,7 +4,16 @@
 }
 
 body{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #262626;
+}
+button#botaoCSS{
+    float: left;
+    margin: 0px 0px 0px 6vh;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #D5D96C;
+    border: none;
 }
 
 section{
@@ -15,6 +24,7 @@ section{
 }
 
 header, footer{
+    background-color: #D93B3B;
     text-align: center;
     margin: auto;
     padding: auto;
@@ -23,16 +33,28 @@ header, footer{
 }
 main{
     height: 70vh;
-    background-color: rgb(4, 119, 39);
+    background-image: url("/imgs/bg-portifolio.jpeg");
+    opacity: 0.6;
+    backface-visibility: hidden;
     flex: 1;
     padding: 2vh;
+    font-weight: normal;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
 }
 
-aside{
-    width: 20vw;
-    height: 74vh;
-    background-color: cadetblue;
+main fieldset{
+    padding: 10px;
 }
+
+div.bg-main{
+    background-color: rgba(70, 73, 67, 0.5);
+    margin: auto;
+    padding: 20px;
+    width: 90%;
+    height:90%;
+}
+
 
 nav ul{
     margin: 0px;
@@ -42,13 +64,14 @@ nav ul{
 
 nav ul li{
     display: inline-block;
-    width: 30px;
-    height: 30px;
+    width: 35px;
+    height: 35px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
     opacity: 0.8;
+    border-radius: 100%;
 }
 nav ul li:hover{
     opacity:1;
@@ -61,19 +84,19 @@ nav ul li.face{
     background-image: url("/imgs/face-pt.png");
 }
 nav ul li.face:hover{
-    background-image: url("/imgs/face-color.png");
+    background-image: url("/imgs/face-rgb.png");
 }
 nav ul li.insta{
-    background-image: url("/imgs/instagran-pt.png");
+    background-image: url("/imgs/insta-pt.png");
 }
 nav ul li.insta:hover{
-    background-image: url("/imgs/instagran-color.png");
+    background-image: url("/imgs/insta-rgb.png");
 }
 nav ul li.linkedin{
     background-image: url("/imgs/linkedin-pt.png");
 }
 nav ul li.linkedin:hover{
-    background-image: url("/imgs/linkedin-color.png");
+    background-image: url("/imgs/linkedin-rgb.png");
 }
 
 nav ul li a{
@@ -82,27 +105,43 @@ nav ul li a{
     display: block;
 }
 
+
+aside{
+    width: 20vw;
+    height: 74vh;
+    background-color: #D93B3B;
+}
+
 ol{
-    margin-left: 7vh;
+    margin-left: 3vh;
     margin-top: 4vh;
     padding: 0px;
     list-style: none;
+    display: inline-block;
+    width: 90%;
+    color: #D5D96C;
+}
+
+ol li input{
+    width: 90%;
 }
 
 img{
-    background-color: darkblue;
-    width: 20vh;
-    height: 20vh;
-    border-radius: 50vh;
+    position: relative;
+    width: 7em;
+    height: 7em;
+    border-radius: 100%;
+    border: 1px solid #262626;
 }
 
 div.fundo{
-    background-color: rgb(10, 4, 41);
-    width: 20vh;
-    height: 20vh;
-    border-radius: 50vh;
-    margin-left: 10vh;
-    margin-top: 4vh;
+    background-color: #A69586;
+    border: 1px solid #262626;
+    width: 7em;
+    height: 7em;
+    border-radius: 100%;
+    margin-left: 25%;
+    margin-top: 10%;
     z-index: 1;
 }
 
@@ -117,6 +156,7 @@ figure{
 }
 
 footer p, header nav{
+    color: #262626;
     display: block;
     position:relative;
     top: 50%;
