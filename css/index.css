@@ -84,7 +84,7 @@ nav ul li.face{
     background-image: url("imgs/face-pt.png");
 }
 nav ul li.face:hover{
-    background-image: url("imgs/face-pt.png");
+    background-image: url("imgs/face-rgb.png");
 }
 nav ul li.insta{
     background-image: url("imgs/insta-pt.png");
