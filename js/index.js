@@ -1,7 +1,7 @@
 function aplicarCSS(){
-   window.location.replace("index-com-css");
+   window.location.replace("index-com-css.html");
 }
 
 function tirarCSS(){
-   window.location.replace("index");
+   window.location.replace("index.html");
 }
